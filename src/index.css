@@ -1,0 +1,96 @@
+/* src/index.css */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #000D20;
+}
+/* 1. Define all your @font-face rules */
+@font-face {
+  font-family: 'FiraCode';
+  src: url('/fonts/FiraCode-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'FiraCode';
+  src: url('/fonts/FiraCode-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'FiraCode';
+  src: url('/fonts/FiraCode-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+button{
+  background: none;
+  border: none;
+}
+.link{
+  text-decoration: none;
+  color: #000000;
+  cursor: pointer;
+}
+a{
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 12px;
+  cursor: pointer;
+}
+.social-links a{
+  font-size: 15px;
+}
+.slash{
+  color: #00E5FF;
+}
+.pound-sign{
+  font-size: 20px;
+}
+li{
+  list-style: none;
+}
+input{
+  width: 100%;
+  height: 40px;
+  color: #FFFFFF;
+  background-color: transparent;
+  border: 1px solid  #FFFFFF;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.text-place{
+  height: 80px;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: #FFFFFF;
+  background-color: transparent;
+  border: 1px solid  #FFFFFF;
+}
+@font-face {
+  font-family: 'FiraCode';
+  src: url('/fonts/FiraCode-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'FiraCode';
+  src: url('/fonts/FiraCode-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* 2. Import Tailwind's styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 3. Register your font using the CORRECT v4 syntax */
+@theme {
+  --font-firacode: 'FiraCode', 'monospace';
+}
