@@ -5,6 +5,7 @@ import { portfolio_data } from "../../data";
 import ProjectComp from "../component/Project";
 import notisys from "../assets/notification system.png";
 import country from "../assets/country.png";
+import ai_agent from "../assets/ai.png"
 import ConnectSection from "../component/ConnectSection";
 const Project = () => {
   return (
@@ -21,6 +22,12 @@ const Project = () => {
           short_description={
             portfolio_data.project.notification_system.short_description
           }
+          stack={portfolio_data.project.notification_system.stack}
+          problem={portfolio_data.project.notification_system.problem}
+          solution={portfolio_data.project.notification_system.solution}
+          features={portfolio_data.project.notification_system.features}
+          glinks={portfolio_data.project.notification_system.github_repo}
+          links_live={portfolio_data.project.notification_system.live_link}
         />
         <ProjectComp
           img={country}
@@ -29,14 +36,26 @@ const Project = () => {
           short_description={
             portfolio_data.project.country_exchange_api.short_description
           }
+          stack={portfolio_data.project.country_exchange_api.stack}
+          problem={portfolio_data.project.country_exchange_api.problem}
+          solution={portfolio_data.project.country_exchange_api.solution}
+          features={portfolio_data.project.country_exchange_api.features}
+          glinks={portfolio_data.project.country_exchange_api.github_repo}
+          links_live={portfolio_data.project.country_exchange_api.live_link}
         />
         <ProjectComp
-          img={country}
-          title={portfolio_data.project.tickect_generator.title}
-          tag={portfolio_data.project.tickect_generator.tags}
+          img={ai_agent}
+          title={portfolio_data.project.task_management_AI.title}
+          tag={portfolio_data.project.task_management_AI.tags}
           short_description={
-            portfolio_data.project.tickect_generator.short_description
+            portfolio_data.project.task_management_AI.short_description
           }
+          stack={portfolio_data.project.task_management_AI.stack}
+          problem={portfolio_data.project.task_management_AI.problem}
+          solution={portfolio_data.project.task_management_AI.solution}
+          features={portfolio_data.project.task_management_AI.features}
+          glinks={portfolio_data.project.task_management_AI.github_repo}
+          links_live={portfolio_data.project.task_management_AI.live_link}
         />
         {/* Let's connect*/}
         <ConnectSection />
