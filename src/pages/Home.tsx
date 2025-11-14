@@ -75,14 +75,16 @@ const Home = () => {
           <h2 className="text-[#00E5FF] text-[16px] mb-[20px] md:text-[30px]">
             //Skills
           </h2>
-          <Skills
-            title={portfolio_data.skills.backend.title}
-            skillList={portfolio_data.skills.backend.tools}
-          />
-          <Skills
-            title={portfolio_data.skills.frontend.title}
-            skillList={portfolio_data.skills.frontend.tools}
-          />
+          <div className=" lg:grid lg:grid-cols-2 lg:gap-8">
+            <Skills
+              title={portfolio_data.skills.backend.title}
+              skillList={portfolio_data.skills.backend.tools}
+            />
+            <Skills
+              title={portfolio_data.skills.frontend.title}
+              skillList={portfolio_data.skills.frontend.tools}
+            />
+          </div>
         </div>
         {/* Experience */}
         <Experience />

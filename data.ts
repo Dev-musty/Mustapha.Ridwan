@@ -24,7 +24,7 @@ export const portfolio_data = {
     },
     frontend: {
       title: "Frontend",
-      tools: ["Reactjs", "Typscript", "Javascript", "Tailwind"],
+      tools: ["Reactjs", "Typscript", "Javascript", "CSS", "Tailwind"],
     },
   },
   project: {

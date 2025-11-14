@@ -1,4 +1,3 @@
-
 interface SkilsProps {
   title: string;
   skillList: string[];
@@ -16,7 +15,7 @@ const Skills = ({ title, skillList }: SkilsProps) => {
             return <li key={index}>{tool}</li>;
           })}
         </div>
-        <hr className="mb-[10px] md:border-[1.5px]"/>
+        <hr className="mb-[10px] md:border-[1.5px]" />
       </div>
     </>
   );
