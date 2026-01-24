@@ -36,7 +36,7 @@ const ExpCard = ({ title, company, period, description, technologies, icon: Icon
 const Experience = () => {
     const experiences = [
         {
-          title: "Backend Engineer",
+          title: "Backend Engineer Intern",
           company: "HNG",
           period: "2025 Nov - 2025 Dec",
           description: "Built RESTful APIs with rate-limiting and proper logging and error handling.Collaborated in a team environment to build a production ready backend system. I configured AI models and implemented a Retrieval-Augmented Generation (RAG) pipeline to serve as the system's source of truth, significantly improving response accuracy.",
