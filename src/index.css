@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Default is Dark Mode (Cosmic/IDE Theme) */
+  --bg-color: #030712;   /* gray-950 (Deep Space) */
+  --grid-color: #1f2937; /* gray-800 */
+  --border-color: #374151; /* gray-700 */
+  --text-color: #f9fafb; /* gray-50 */
+  --muted-color: #9ca3af; /* gray-400 */
+  --accent-color: #ffffff;
+  --card-bg: #111827; /* gray-900 */
+  
+  --grid-pattern-color: #1f2937;
+}
+
+/* Light Mode Override (Blueprint Theme) */
+.light {
+  --bg-color: #ffffff;
+  --grid-color: #e5e7eb;
+  --border-color: #d1d5db;
+  --text-color: #000000;
+  --muted-color: #6b7280;
+  --accent-color: #000000;
+  --card-bg: #ffffff;
+  
+  --grid-pattern-color: #e5e7eb;
+}
+
+@layer base {
+  body {
+    @apply bg-blueprint-bg text-blueprint-text font-sans antialiased transition-colors duration-300;
+    /* Dot grid background pattern */
+    background-image: radial-gradient(var(--grid-pattern-color) 1px, transparent 1px);
+    background-size: 24px 24px;
+  }
+}
+
+@layer utilities {
+  .border-grid {
+    border-color: var(--border-color);
+    border-width: 1px;
+    border-style: solid;
+  }
+}
