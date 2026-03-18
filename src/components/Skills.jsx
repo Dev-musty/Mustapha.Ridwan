@@ -4,7 +4,7 @@ import { Code, Server, Database, Cloud, Terminal, Palette } from 'lucide-react';
 import ProcessMap from './ProcessMap';
 
 const SkillCategory = ({ title, icon: Icon, skills }) => (
-  <motion.div 
+  <motion.div
     initial={{ opacity: 0, y: 20 }}
     whileInView={{ opacity: 1, y: 0 }}
     viewport={{ once: true }}
@@ -14,7 +14,7 @@ const SkillCategory = ({ title, icon: Icon, skills }) => (
       <Icon className="text-blueprint-accent" size={20} />
       <h3 className="text-xl font-display font-bold text-blueprint-text">{title}</h3>
     </div>
-    
+
     <div className="flex flex-wrap gap-3">
       {skills.map((skill) => (
         <motion.div
@@ -23,7 +23,7 @@ const SkillCategory = ({ title, icon: Icon, skills }) => (
             className="flex items-center gap-2 bg-blueprint-card border border-blueprint-grid px-4 py-2 rounded-full hover:border-blueprint-accent transition-colors cursor-default"
         >
           {/* We would ideally use specific icons here. For now, a generic dot. */}
-            {/* If we had specific icons (like react-icons) we would render them here. 
+            {/* If we had specific icons (like react-icons) we would render them here.
                 For this aesthetic, text + simple icon is fine. */}
           <span className="w-2 h-2 rounded-full bg-blueprint-muted/50"></span>
           <span className="font-mono text-sm text-blueprint-text">{skill.name}</span>
@@ -44,7 +44,7 @@ const Skills = () => {
         },
         {
             title: "Libraries & Frameworks",
-            icon: Palette, 
+            icon: Palette,
             skills: [
                 { name: "CSS3" }, { name: "React.js" }, { name: "NestJS" },
                 { name: "OAuth" }, { name: "JWT" }, { name: "Express.js" }, { name: "Prisma" },
@@ -53,7 +53,7 @@ const Skills = () => {
         },
         {
             title: "AI",
-            icon: Server, 
+            icon: Server,
             skills: [
                 { name: "Vercel AI SDK" }, { name: "Mastra AI" },{ name: "OpenRouter" }, { name: "OpenAI API" }
             ]
@@ -93,19 +93,19 @@ const Skills = () => {
 
         <div className="grid grid-cols-1 gap-8">
             {skillData.map((category) => (
-                <SkillCategory 
-                    key={category.title} 
-                    title={category.title} 
-                    icon={category.icon} 
-                    skills={category.skills} 
+                <SkillCategory
+                    key={category.title}
+                    title={category.title}
+                    icon={category.icon}
+                    skills={category.skills}
                 />
             ))}
         </div>
       </div>
 
-      
+
     </section>
-    <ProcessMap />
+    {/* <ProcessMap /> */}
     </>
   );
 };
