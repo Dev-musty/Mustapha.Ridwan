@@ -40,21 +40,21 @@ const Hero = () => {
         </div>
 
         <p className="mt-6 md:mt-8 max-w-xl text-blueprint-muted leading-relaxed text-sm md:text-base">
-          I'm a Backend Engineer dedicated to building efficient, scalable systems using Node.js, TypeScript, and NestJS. Designing robust RESTful APIs and system design, my focus is always on efficiency and structure. Proven ability to bridge the gap between technical constraints and product vision.
+          Backend Engineer building REST APIs and AI-integrated systems using Node.js, TypeScript, and NestJS. My work is currently live and serving 1,000+ users.
         </p>
-        
+
         <p className="mt-4 font-mono text-blueprint-text text-sm md:text-base">
           Ideas become tools. Concepts become code.
         </p>
 
         <div className="mt-8 md:mt-10 flex flex-col sm:flex-row gap-4">
-          <button 
+          <button
             onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
             className="bg-blueprint-text text-blueprint-bg font-mono text-sm px-8 py-3 hover:opacity-90 transition-opacity"
           >
             Get_In_Touch
           </button>
-          <a 
+          <a
             href={resume}
             download="MUSTAPHA RIDWAN.pdf"
             className="border border-blueprint-text text-blueprint-text font-mono text-sm px-8 py-3 hover:bg-blueprint-grid transition-colors flex items-center justify-center"

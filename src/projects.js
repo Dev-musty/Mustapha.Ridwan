@@ -29,9 +29,9 @@ export const projects = [
     solution: "",
     features: [
       "Authentication: Google Sign-In (JWT) for users.",
-      "Wallet Management: [Wallet creation per user,Deposits via Paystack with idempotency key for transaction tracking,Wallet-to-wallet transfers,Balance and transaction history checks].",
-      "API Key System: [Generate API keys for service access,Permission-based access (deposit, transfer, read),Key expiration (1H, 1D, 1M, 1Y) and rollover,Limit of 5 active keys per user].",
-      "Payments: [Paystack integration for deposits,Mandatory Webhook handling for transaction verification].",
+      "Wallet Management: Wallet creation per user,Deposits via Paystack with idempotency key for transaction tracking,Wallet-to-wallet transfers,Balance and transaction history checks.",
+      "API Key System: Generate API keys for service access,Permission-based access (deposit, transfer, read),Key expiration (1H, 1D, 1M, 1Y) and rollover,Limit of 5 active keys per user.",
+      "Payments: Paystack integration for deposits,Mandatory Webhook handling for transaction verification.",
     ],
     tech: ["NestJS", "Paystack", "typescript", "PostgreSQL"],
     link: "#",

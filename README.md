@@ -1,52 +1,42 @@
-# Hi, I'm Mustapha Ridwan 👋
+# Mustapha Ridwan — Backend Engineer
 
-> **Backend Engineer | Software Engineer | Systems Architect**
+Backend Engineer specialising in AI-integrated systems. I build REST APIs,
+RAG pipelines, and agent-based architectures using Node.js, TypeScript, and NestJS.
+My work is currently live and serving 1,000+ users.
 
-Welcome to my portfolio repository. This project is a reflection of my journey as a software engineer, showcasing my expertise in building scalable, high-performance systems and my passion for clean, maintainable code.
+## About
 
-## 👨‍💻 About Me
+I'm based in Lagos, Nigeria. I study Mechanical Engineering at the University
+of Lagos and build backend systems on the side — mostly at the intersection of
+APIs and AI. I'm drawn to problems that require structured thinking and practical
+engineering, which is probably why I ended up working on AI systems.
 
-I am a **Backend Engineer** dedicated to building wise, efficient, and scalable systems. My expertise lies in architecting secure backends using **Node.js**, **TypeScript**, and **NestJS**.
+## Stack
 
-I focus on designing robust **RESTful APIs** and solid **system designs**, always prioritizing efficiency and structure. I have a proven ability to bridge the gap between technical constraints and product vision, ensuring that the technology not only works but drives the business forward.
+- **Backend**: Node.js, NestJS, Express.js, REST APIs, JWT
+- **AI & Data**: RAG Pipelines, Vector Databases, Pinecone, AWS S3, Prompt Engineering
+- **Database & Infra**: PostgreSQL, Redis, Git
+- **Languages**: TypeScript, JavaScript
 
-*   **Core Focus**: Scalable Systems, API Design, Backend Architecture.
-*   **Philosophy**: "I treat code as a structural component—clean, reliable, and purpose-built."
+## Projects
 
-## 🛠️ Technical Arsenal
+See the [projects section](https://mustapha-ridwan.onrender.com/projects)
+of my portfolio for details.
 
-This portfolio itself is built with a modern frontend stack to demonstrate full-stack capabilities:
+## Portfolio Stack
 
-- **Frontend**: [React](https://react.dev/), [Vite](https://vitejs.dev/)
-- **Styling**: [TailwindCSS](https://tailwindcss.com/) (Custom "Blueprint" Design System)
-- **Languages**: JavaScript (ES6+), TypeScript
-- **Backend/Systems**: Node.js, NestJS, REST APIs (showcased in projects)
+Built with React, Vite, and TailwindCSS.
 
-## 🚀 Portfolio Features
+## Run Locally
+```bash
+git clone https://github.com/mustapharidwan/portfolio.git
+npm install
+# Add .env file with EmailJS keys
+npm run dev
+```
 
-- **Interactive Journey**: A timeline of my professional growth from Full Stack Development to Backend Engineering.
-- **Project Showcase**: A curated list of my key projects, highlighting technical challenges and solutions.
-- **Direct Communication**: Integrated contact form for seamless collaboration inquiries.
+## Contact
 
-## 📫 Connect With Me
-
-I am always open to discussing new projects, collaboration opportunities, or system design challenges.
-
-- **Email**: [mustapharid19@gmail.com](mailto:mustapharid19@gmail.com)
-- **LinkedIn**: [Mustapha Ridwan](https://linkedin.com/in/mustapharidwan)
-- **GitHub**: [mustapharidwan](https://github.com/mustapharidwan)
-- **Resume**: [Download PDF](/src/assets/MUSTAPHA_RIDWAN.pdf)
-
----
-
-## 🏗️ Local Setup
-
-If you'd like to run this portfolio locally:
-
-1.  **Clone**: `git clone https://github.com/mustapharidwan/portfolio.git`
-2.  **Install**: `npm install`
-3.  **Configure**: Create a `.env` file for EmailJS keys.
-4.  **Run**: `npm run dev`
-
----
-© 2026 Mustapha Ridwan.
+- mustaphatemitope19@gmail.com
+- [LinkedIn](https://linkedin.com/in/mustapharidwan)
+- [GitHub](https://github.com/mustapharidwan)

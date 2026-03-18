@@ -17,7 +17,7 @@ const About = () => {
         <>
         <section className="min-h-screen bg-blueprint-bg py-20 px-4 md:px-6">
             <div className="max-w-7xl mx-auto">
-                <motion.div 
+                <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     className="mb-20 text-center md:text-left"
@@ -28,7 +28,7 @@ const About = () => {
                 </motion.div>
 
                 {/* WHO I AM & WHAT I DO */}
-                <motion.div 
+                <motion.div
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
                     viewport={{ once: true }}
@@ -37,13 +37,13 @@ const About = () => {
                      <div>
                         <SectionHeader title="WHO I AM" />
                         <p className="text-blueprint-muted leading-relaxed font-mono text-sm md:text-base">
-                            I'm Mustapha Ridwan, a Software Engineer and Mechanical Engineering student. I sit at the intersection of physical principles and digital logic. My academic background trains me to analyze constraints and build for stability, while my passion for code allows me to turn those concepts into scalable software.
+                            I'm Mustapha Ridwan, a Backend Engineer based in Lagos. I study Mechanical Engineering at the University of Lagos by day and build backend systems by night. I'm drawn to problems that require both structured thinking and practical engineering — which is probably why I ended up working on AI systems.
                         </p>
                      </div>
                      <div>
                         <SectionHeader title="WHAT I DO" />
                          <p className="text-blueprint-muted leading-relaxed font-mono text-sm md:text-base">
-                            I build efficient and scalable systems. Whether it's optimizing a database query, designing a scalable API, my focus is always on efficiency and structure. I bridge the gap between technical constraints and product vision.
+                            I build REST APIs and AI-integrated backends using Node.js, TypeScript, and NestJS. Lately I've been deep in RAG pipelines, vector databases, and agent-based architectures. I care about systems that are easy to maintain, not just systems that work once
                         </p>
                      </div>
                 </motion.div>
@@ -59,7 +59,7 @@ const About = () => {
                 {/*  */}
 
                  {/* WHAT I'M UP TO */}
-                 <motion.div 
+                 {/* <motion.div
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
                     viewport={{ once: true }}
@@ -81,8 +81,7 @@ const About = () => {
                             </li>
                         </ul>
                     </div>
-                    {/* later implementation */}
-                    {/* <div className="bg-blueprint-card border border-blueprint-grid p-8 rounded-xl">
+                    <div className="bg-blueprint-card border border-blueprint-grid p-8 rounded-xl">
                         <div className="flex items-center gap-3 mb-6">
                             <Coffee className="text-blueprint-accent" size={24} />
                             <h3 className="font-display font-bold text-xl text-blueprint-text">READING / DOING</h3>
@@ -101,15 +100,15 @@ const About = () => {
                                 Exploring: Generated AI Art
                             </li>
                         </ul>
-                    </div> */}
-                </motion.div>
+                    </div>
+                </motion.div> */}
 
 
 
             </div>
         </section>
-        
-        <ProcessMap />
+
+        {/* <ProcessMap /> */}
         </>
     );
 };

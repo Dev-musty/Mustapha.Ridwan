@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { Server, Layout, Database, Wrench } from 'lucide-react';
 
 const ExpCard = ({ title, company, period, description, technologies, icon: Icon }) => (
-  <motion.div 
+  <motion.div
     whileHover={{ scale: 1.02 }}
     className="border border-blueprint-grid bg-blueprint-card p-6 relative group z-10 w-full"
   >
@@ -18,7 +18,7 @@ const ExpCard = ({ title, company, period, description, technologies, icon: Icon
       <span className="text-blueprint-accent">{company}</span>
       <span>{period}</span>
     </div>
-    
+
     <p className="text-blueprint-muted text-sm leading-relaxed mb-4">
         {description}
     </p>
@@ -38,8 +38,8 @@ const Experience = () => {
         {
           title: "Backend Engineer Intern",
           company: "HNG",
-          period: "2025 Nov - 2025 Dec",
-          description: "Built RESTful APIs with rate-limiting and proper logging and error handling.Collaborated in a team environment to build a production ready backend system. I configured AI models and implemented a Retrieval-Augmented Generation (RAG) pipeline to serve as the system's source of truth, significantly improving response accuracy.",
+          period: "2025 Nov - Present",
+          description: "Built RESTful APIs with rate-limiting, structured logging, and error handling during the programme's early assessment stages. Joined team DeenAI to build a faith companion app featuring an Islamic AI chat, Quran, Adhkar, Qiblah finder, and Hadith collections, contributed primarily to the AI chat backend. Engineered a RAG pipeline post-internship using AWS S3 as the vector store; system shipped to production and currently serving 1,000+ users.",
           technologies: ["Node.js", "Express.js", "NestJS", "PostgreSQL", "Typescript", "Mastra AI", "mySQL"],
           icon: Server
         },
